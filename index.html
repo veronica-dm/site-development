@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Разработка лендинга под ключ — система для заявок и продаж</title>
+<title>Создание сайтов под ключ — система для заявок и продаж</title>
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
-<meta name="description" content="Разработка лендинга под ключ: УТП, продающие тексты, дизайн и вёрстка, связка с рекламой, CRM и аналитикой. Не просто лендинг — система для заявок и продаж.">
+<meta name="description" content="Создание сайтов под ключ: структура и оффер, продающие тексты, дизайн и вёрстка, связка с рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:title" content="Разработка лендинга под ключ — система для заявок и продаж">
-<meta property="og:description" content="Разработка лендинга под ключ: УТП, продающие тексты, дизайн и вёрстка, связка с рекламой, CRM и аналитикой. Не просто лендинг — система для заявок и продаж.">
+<meta property="og:title" content="Создание сайтов под ключ — система для заявок и продаж">
+<meta property="og:description" content="Создание сайтов под ключ: структура и оффер, продающие тексты, дизайн и вёрстка, связка с рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
 <meta property="og:image" content="assets/img/og-image.jpg">
-<meta property="og:image:width" content="1727">
-<meta property="og:image:height" content="911">
-<meta property="og:image:alt" content="Разработка лендинга под ключ — система для заявок и продаж">
+<meta property="og:image:width" content="1730">
+<meta property="og:image:height" content="909">
+<meta property="og:image:alt" content="Создание сайтов под ключ — система для заявок и продаж">
 <meta name="twitter:card" content="summary_large_image">
 <!-- Marquiz script start -->
 <script>
@@ -28,7 +28,7 @@
 })(window, document, 'script', {
     host: 'https://quiz.marquiz.ru',
     region: 'ru',
-    id: '6ad8c4495385bf000f80d24b',
+    id: '6ad9e73dc6d157000f5670ec',
     autoOpen: 10,
     autoOpenFreq: 'always',
     openOnExit: true,
@@ -37,7 +37,7 @@
 );
 </script>
 <!-- Marquiz script end -->
-<script src="https://code.jivosite.com/widget/g4qOkSOokL" async></script>
+<script src="https://code.jivosite.com/widget/HJFgI9hBeQ" async></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -696,15 +696,26 @@ nav.scrolled .btn-swap:hover{background:var(--red-2)}
 .share-top b small{font-size:60px;letter-spacing:-3px;color:var(--red)}
 .share-top p{max-width:240px;color:#949494;font-size:15px;padding-top:10px}
 .share-top p strong{color:var(--grey);font-weight:600}
-.cms{margin-top:auto;padding-top:44px;display:flex;flex-direction:column;gap:18px}
-.cms-row{display:grid;grid-template-columns:1fr auto;row-gap:8px;align-items:end;font-size:14px;color:#bdbdbd}
-.cms-row b{grid-row:1;grid-column:2;font-size:14px;font-weight:600;color:#efefef;line-height:1;font-variant-numeric:tabular-nums}
-.cms-row.wp{color:#fff;font-weight:600}
-.cms-row.wp b{color:var(--red);font-size:20px}
-.cms-bar{grid-column:1/-1;display:grid;grid-template-columns:repeat(45,1fr);gap:3px}
-.cms-bar i{aspect-ratio:1;background:#555;transform:scale(0);transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
-.cms-row.wp .cms-bar i{background:var(--red)}
-.cms.on .cms-bar i{transform:none}
+.ld-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:32px}
+.ld-tabs button{background:transparent;border:1px solid #333;color:#bdbdbd;font:inherit;font-size:14px;font-weight:500;padding:9px 14px;cursor:pointer;transition:background .25s,border-color .25s,color .25s}
+.ld-tabs button:hover{border-color:#777;color:#fff}
+.ld-tabs button.on{background:var(--grey);border-color:var(--grey);color:var(--ink)}
+.leads{margin-top:auto;padding-top:40px;display:grid;grid-template-columns:repeat(20,1fr);gap:4px}
+.leads i{aspect-ratio:1;background:var(--red);transform:scale(0);transition:transform .35s cubic-bezier(.34,1.56,.64,1),background .4s,box-shadow .4s}
+.leads.on i{transform:none}
+.leads[data-m="0"] i.l1{background:#555}
+.leads[data-m="0"] i.l2{background:#3a3a3a}
+.leads[data-m="0"] i.l3{background:transparent;box-shadow:inset 0 0 0 1px #555}
+.ld-legend{list-style:none;margin:22px 0 0;padding:0;min-height:82px;display:flex;flex-direction:column;gap:8px;font-size:14px;color:#bdbdbd}
+.ld-legend li{display:flex;gap:8px}
+.ld-legend li::before{content:"";width:12px;height:12px;flex-shrink:0;align-self:flex-start;margin-top:4px;background:#555}
+.ld-legend .l2::before{background:#3a3a3a}
+.ld-legend .l3::before{background:transparent;box-shadow:inset 0 0 0 1px #555}
+.ld-legend .ok::before{background:var(--red)}
+.ld-legend b{color:#efefef;font-weight:600}
+.ld-legend .ok b{color:var(--red)}
+.ld-legend .ok,.ld-legend.m1 li:not(.ok){display:none}
+.ld-legend.m1 .ok{display:flex}
 .share-src{font-size:12px;color:#5a5a5a;margin-top:10px}
 .feats{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--canvas)}
 .feat{position:relative;background:var(--grey);padding:28px 26px 30px;overflow:hidden;transition:background .35s}
@@ -1028,7 +1039,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
   .price-partner-badge{position:static;margin:0 0 16px!important}
   .work{grid-template-columns:1fr}
   .promo__timer-unit{min-width:80px;padding:14px 18px 10px}.promo__timer-num{font-size:44px}.promo__timer-sep{font-size:40px}
-  .feats{grid-template-columns:1fr}.share{padding:28px 20px}.share-top b{font-size:80px;letter-spacing:-4px}.share-top b small{font-size:40px}.share-top{flex-direction:column}.cms-bar{gap:2px}
+  .feats{grid-template-columns:1fr}.share{padding:28px 20px}.share-top b{font-size:80px;letter-spacing:-4px}.share-top b small{font-size:40px}.share-top{flex-direction:column}.leads{grid-template-columns:repeat(10,1fr)}
   .channels{grid-template-columns:1fr}
   form{grid-template-columns:1fr}
   .case{margin-bottom:60px}
@@ -1057,7 +1068,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <div class="mmenu" id="mmenu" aria-hidden="true">
   <div class="mm-bg" id="mm-bg"></div>
   <div class="mm-panel">
-    <div class="mm-top"><span class="mm-logo">Разработка лендинга</span><button class="mm-close" id="mclose" aria-label="Закрыть меню"><img src="assets/icons/close.svg" alt="" width="30" height="30"></button></div>
+    <div class="mm-top"><span class="mm-logo">Создание сайтов</span><button class="mm-close" id="mclose" aria-label="Закрыть меню"><img src="assets/icons/close.svg" alt="" width="30" height="30"></button></div>
     <div class="mm-nav"><a href="/#services">Услуги</a><a href="/#projects">Кейсы</a><a href="/#price">Цены</a><a href="/#contact">Контакты</a></div>
     <div class="mm-foot">
       <div class="mm-soc">
@@ -1077,21 +1088,21 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <!-- 1. Первый экран -->
 <header class="hero">
   <nav id="nav"><div class="bar"><div class="in">
-    <a class="logo" href="/">Разработка лендинга</a>
+    <a class="logo" href="/">Создание сайтов</a>
     <ul><li><a href="/#services">Услуги<i class="mi i-arrow nav-ar"></i></a></li><li><a href="/#projects">Кейсы<i class="mi i-arrow nav-ar"></i></a></li><li><a href="/#price">Цены<i class="mi i-arrow nav-ar"></i></a></li><li><a href="/#contact">Контакты<i class="mi i-arrow nav-ar"></i></a></li></ul>
-    <div class="nav-r"><a class="btn btn-swap" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Рассчитать <i class="mi i-arrow"></i></a>
+    <div class="nav-r"><a class="btn btn-swap" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Рассчитать <i class="mi i-arrow"></i></a>
     <button class="burger" id="burger" aria-label="Открыть меню"><i class="mi i-burger"></i>Меню</button></div>
   </div></div></nav>
   <div class="hero-top"></div>
   <div class="hero-main">
     <div class="hero-txt">
       <div class="hero-copy">
-        <h1>Не&nbsp;просто лендинг&nbsp;— система для&nbsp;заявок и&nbsp;продаж</h1>
-        <p>Разрабатываем быстрый продающий лендинг и&nbsp;связываем его с&nbsp;рекламой, CRM и&nbsp;аналитикой. Одна страница, одно предложение и&nbsp;понятный путь клиента: от&nbsp;первого перехода до&nbsp;заявки и&nbsp;продажи.</p>
+        <h1>Не&nbsp;просто сайт&nbsp;— система для&nbsp;заявок и&nbsp;продаж</h1>
+        <p>Создаём сайт под ключ и&nbsp;связываем его с&nbsp;рекламой, CRM и&nbsp;аналитикой. Вы получаете не&nbsp;просто красивый сайт, а&nbsp;понятную систему: от&nbsp;первого перехода до&nbsp;заявки и&nbsp;продажи.</p>
       </div>
       <div class="cta">
         <a class="btn btn-light" href="#projects">Смотреть кейсы <i class="mi i-arrow"></i></a>
-        <a class="btn btn-light" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Рассчитать проект <i class="mi i-arrow"></i></a>
+        <a class="btn btn-light" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Рассчитать проект <i class="mi i-arrow"></i></a>
       </div>
     </div>
     <div class="shots">
@@ -1099,21 +1110,21 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
       <div class="shot"><img src="assets/img/how-4.webp" alt="Яндекс.Директ: рост конверсий"></div>
     </div>
   </div>
-  <ul class="hero-tags"><li>Лендинг</li><li>Реклама</li><li>Продвижение</li><li>CRM</li><li>Чат-боты</li><li>SEO</li><li>Аналитика</li></ul>
+  <ul class="hero-tags"><li>Сайт</li><li>Реклама</li><li>Продвижение</li><li>CRM</li><li>Чат-боты</li><li>SEO</li><li>Аналитика</li></ul>
 </header>
 
-<!-- 2. Красивого лендинга недостаточно -->
+<!-- 2. Красивого сайта недостаточно -->
 <section class="sec"><div class="wrap">
   <div class="head">
-    <div><p class="eyebrow fu">Одна система: от лендинга до заявок и продаж</p><h2 class="rv">Красивого лендинга <em>недостаточно</em></h2></div>
-    <p class="descr fu d2">Мы делаем не просто красивый и быстрый лендинг, а сразу продумываем, как он&nbsp;будет привлекать клиентов, собирать заявки и работать вместе с рекламой, CRM, чат-ботами и аналитикой.</p>
+    <div><p class="eyebrow fu">Одна система: от сайта до заявок и продаж</p><h2 class="rv">Красивого сайта <em>недостаточно</em></h2></div>
+    <p class="descr fu d2">Мы делаем не просто красивый и быстрый сайт, а сразу продумываем, как он&nbsp;будет привлекать клиентов, собирать заявки и работать вместе с рекламой, CRM, чат-ботами и аналитикой.</p>
   </div>
   <div class="compare">
     <div class="col dark fu">
       <h3>Как бывает обычно</h3>
-      <div class="row"><span class="tag">Лендинг</span><h4>Собрали страницу из шаблона — и на этом работа закончилась</h4></div>
+      <div class="row"><span class="tag">Сайт</span><h4>Купили шаблон, наполнили как получилось — и на этом работа закончилась</h4></div>
       <div class="row"><span class="tag">Реклама</span><h4>Реклама есть, аналитики нет — бюджет уходит в никуда</h4></div>
-      <div class="row"><span class="tag">Результат</span><h4>Лендинг не конвертит — решают, что «реклама не работает»</h4></div>
+      <div class="row"><span class="tag">Результат</span><h4>Сайт не конвертит — решают, что «реклама не работает»</h4></div>
       <div class="row"><span class="tag">Итог</span><h4>Нет единой системы — каждый инструмент сам по себе</h4></div>
     </div>
     <div class="col light fu d2">
@@ -1128,11 +1139,11 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
         <img class="pop" src="assets/img/how-2.webp" alt="Чат-бот принимает обращение клиента" loading="lazy"></div>
       <div class="row hv"><span class="tag red">Автоматизация</span><h4>Подключаем CRM</h4>
         <button class="info" aria-label="Подробнее про CRM" aria-expanded="false">i</button>
-        <div class="tip" role="tooltip">Настраиваем передачу заявок с лендинга в CRM, уведомления менеджерам, статусы, воронку и базовую автоматизацию. Обращения не теряются, а работа с клиентами становится прозрачной и управляемой.</div>
-        <img class="pop" src="assets/img/how-3.webp" alt="Заявки с лендинга в воронке CRM" loading="lazy"></div>
-      <div class="row hv"><span class="tag blk">Продвижение</span><h4>Продвигаем лендинг</h4>
+        <div class="tip" role="tooltip">Настраиваем передачу заявок с сайта в CRM, уведомления менеджерам, статусы, воронку и базовую автоматизацию. Обращения не теряются, а работа с клиентами становится прозрачной и управляемой.</div>
+        <img class="pop" src="assets/img/how-3.webp" alt="Заявки с сайта в воронке CRM" loading="lazy"></div>
+      <div class="row hv"><span class="tag blk">Продвижение</span><h4>Продвигаем сайт</h4>
         <button class="info" aria-label="Подробнее про продвижение" aria-expanded="false">i</button>
-        <div class="tip" role="tooltip">Готовим лендинг к продвижению, запускаем рекламу и смотрим на реальные показатели: заявки, стоимость обращения, конверсию и окупаемость. Дальше улучшаем связку на основе данных, а не догадок.</div>
+        <div class="tip" role="tooltip">Готовим сайт к продвижению, запускаем рекламу и смотрим на реальные показатели: заявки, стоимость обращения, конверсию и окупаемость. Дальше улучшаем связку на основе данных, а не догадок.</div>
         <img class="pop" src="assets/img/how-4.webp" alt="Статистика рекламной кампании в Яндекс.Директе" loading="lazy"></div>
     </div>
   </div>
@@ -1141,14 +1152,14 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <!-- 3. Партнёрство -->
 <section class="sec"><div class="wrap">
   <div class="head">
-    <div><p class="eyebrow fu">Партнёрство вместо подряда</p><h2 class="rv">Наша задача — чтобы ваш лендинг приносил <em>заявки и&nbsp;продажи</em></h2></div>
-    <p class="descr fu d2">Не заканчиваем работу на разработке лендинга.<br>Связываем лендинг, рекламу, CRM и аналитику и смотрим, как вся цепочка влияет на заявки и продажи.</p>
+    <div><p class="eyebrow fu">Партнёрство вместо подряда</p><h2 class="rv">Наша задача — чтобы ваш сайт приносил <em>заявки и&nbsp;продажи</em></h2></div>
+    <p class="descr fu d2">Не заканчиваем работу на разработке сайта.<br>Связываем сайт, рекламу, CRM и аналитику и смотрим, как вся цепочка влияет на заявки и продажи.</p>
   </div>
   <div class="stats">
     <div class="stat fu"><b><span data-count="20">20</span>+</b><span>лет в digital<br>и продажах</span></div>
     <div class="stat fu d1"><b>1&nbsp;команда</b><span>от разработки<br>до продвижения</span></div>
     <div class="stat fu d2"><b><span data-count="100">100</span>%</b><span>проектов готовы<br>к аналитике и рекламе</span></div>
-    <div class="stat fu d3"><b>1&nbsp;система</b><span>УТП → лендинг → реклама →<br>заявка → CRM</span></div>
+    <div class="stat fu d3"><b>1&nbsp;система</b><span>УТП → сайт → реклама →<br>заявка → CRM</span></div>
   </div>
 </div></section>
 
@@ -1156,15 +1167,15 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <section class="promo" aria-labelledby="promo-heading">
   <div class="promo__inner">
     <div class="promo__badge">Акция</div>
-    <h2 class="promo__title" id="promo-heading">Бесплатный лендинг в счёт<br>системы продвижения</h2>
-    <p class="promo__sub">Пока идёт таймер — лендинг за наш счёт.</p>
+    <h2 class="promo__title" id="promo-heading">Бесплатный сайт в счёт<br>системы продвижения</h2>
+    <p class="promo__sub">Пока идёт таймер — сайт за наш счёт.</p>
     <div class="promo__timer" aria-label="Обратный отсчёт">
       <div class="promo__timer-unit"><span class="promo__timer-num" id="promo-min">15</span><span class="promo__timer-label">мин</span></div>
       <div class="promo__timer-sep">:</div>
       <div class="promo__timer-unit"><span class="promo__timer-num" id="promo-sec">00</span><span class="promo__timer-label">сек</span></div>
     </div>
     <div class="promo__progress-wrap" aria-hidden="true"><div class="promo__progress-bar" id="promo-bar"></div></div>
-    <a href="#popup:marquiz_6ad8c4495385bf000f80d24b" class="btn btn-red">Получить бесплатный лендинг <i class="mi i-arrow"></i></a>
+    <a href="#popup:marquiz_6ad9e73dc6d157000f5670ec" class="btn btn-red">Получить бесплатный сайт <i class="mi i-arrow"></i></a>
   </div>
 </section>
 
@@ -1261,19 +1272,19 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <!-- НОВОЕ: скорость = заявки -->
 <section class="sec"><div class="wrap">
   <div class="head">
-    <div><p class="eyebrow eb-wide-d fu">Скорость и&nbsp;SEO</p><h2 class="rv">Быстрые лендинги с SEO‑основой — <em>больше заявок без доработок</em></h2></div>
-    <p class="descr fu d2">Собираем лендинг на чистом коде без лишних скриптов: загрузка меньше секунды, зелёная зона Core Web Vitals и SEO‑структура с первого дня. Посетители с рекламы не уходят, не дождавшись загрузки, поисковики ранжируют страницу выше, а вам не нужно ничего переделывать — лендинг просто приносит заявки.</p>
+    <div><p class="eyebrow eb-wide-d fu">Скорость и&nbsp;SEO</p><h2 class="rv">Быстрые сайты с SEO‑основой — <em>больше заявок без доработок</em></h2></div>
+    <p class="descr fu d2">Собираем сайт на чистом коде без лишних скриптов и плагинов: загрузка меньше секунды, зелёная зона Core Web Vitals и SEO‑структура с первого дня. Посетители не уходят, не дождавшись загрузки, поисковики поднимают сайт выше, а вам не нужно ничего переделывать — сайт просто приносит заявки.</p>
   </div>
   <div class="speed fu d2" id="speed">
     <div class="speed-l">
       <h3>Сравните отчёт Google PageSpeed</h3>
-      <p class="descr">Так выглядит проверка скорости обычного лендинга и лендинга, который собираем мы. Переключайте, чтобы увидеть разницу.</p>
+      <p class="descr">Так выглядит проверка скорости обычного сайта и сайта, который собираем мы. Переключайте, чтобы увидеть разницу.</p>
       <div class="switch" id="switch" role="tablist">
         <span class="knob"></span>
-        <button role="tab" data-mode="tpl" class="on" aria-selected="true">Обычный лендинг</button>
-        <button role="tab" data-mode="ours" aria-selected="false">Лендинг от нас</button>
+        <button role="tab" data-mode="tpl" class="on" aria-selected="true">Обычный сайт</button>
+        <button role="tab" data-mode="ours" aria-selected="false">Сайт от нас</button>
       </div>
-      <p class="switch-hint">Пример типичной разницы. Замер вашего лендинга или сайта сделаем на бесплатном аудите.</p>
+      <p class="switch-hint">Пример типичной разницы. Замер вашего сайта сделаем на бесплатном аудите.</p>
       <ul>
         <li>Свой код вместо тяжёлого шаблона и&nbsp;десятков лишних скриптов</li>
         <li>Сжатые изображения и быстрый хостинг</li>
@@ -1281,7 +1292,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
       </ul>
     </div>
     <div class="report">
-      <div class="url"><b>Отчёт Google PageSpeed</b><span id="sp-url">обычный лендинг</span><span class="dev">📱 Мобильные</span></div>
+      <div class="url"><b>Отчёт Google PageSpeed</b><span id="sp-url">обычный сайт</span><span class="dev">📱 Мобильные</span></div>
       <div class="gauges" id="gauges"></div>
       <div class="metrics" id="metrics"></div>
       <div class="verdict" id="verdict"></div>
@@ -1297,11 +1308,11 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
   </div>
   <div class="work">
     <div class="wcard zi" tabindex="0"><img src="assets/img/work-1.webp" alt="Разбор и анализ рынка" loading="lazy"><h3>Разбор и анализ рынка</h3><p class="plate">Разбираем продукт, аудиторию и конкурентов. Формулируем предложение и расставляем акценты так, чтобы клиент сразу понимал ценность продукта.</p></div>
-    <div class="wcard zi d1" tabindex="0"><img src="assets/img/work-2.webp" alt="Проектирование структуры лендинга под путь клиента" loading="lazy"><h3>Структура под путь клиента</h3><p class="plate">Продумываем последовательность блоков на странице. Каждый элемент отвечает на вопрос клиента, снимает возражение или ведёт к следующему действию.</p></div>
-    <div class="wcard zi d2" tabindex="0"><img src="assets/img/work-3.webp" alt="Подготовка текстов для лендинга" loading="lazy"><h3>Тексты</h3><p class="plate">Пишем заголовки, офферы, преимущества, описания услуг и призывы к действию. Не заполняем пространство текстом — объясняем ценность продукта.</p></div>
-    <div class="wcard zi" tabindex="0"><img src="assets/img/work-4.webp" alt="Индивидуальный дизайн лендинга" loading="lazy"><h3>Индивидуальный дизайн</h3><p class="plate">Визуальная часть помогает легче воспринимать информацию и усиливает доверие к компании. Продумываем композицию, акценты и детали.</p></div>
-    <div class="wcard zi d1" tabindex="0"><img src="assets/img/work-5.webp" alt="Сборка лендинга с CRM и чат-ботами" loading="lazy"><h3>Сборка лендинга + CRM и боты</h3><p class="plate">Собираем адаптивный лендинг. Подключаем CRM, уведомления в Telegram, email, чат-боты и дополнительные сценарии.</p></div>
-    <div class="wcard zi d2" tabindex="0"><img src="assets/img/work-6.webp" alt="Настройка аналитики и рекламы" loading="lazy"><h3>Аналитика и реклама</h3><p class="plate">Настраиваем цели и основные события. При необходимости запускаем рекламу и продолжаем работу с лендингом на основании данных.</p></div>
+    <div class="wcard zi d1" tabindex="0"><img src="assets/img/work-2.webp" alt="Проектирование структуры сайта под путь клиента" loading="lazy"><h3>Структура под путь клиента</h3><p class="plate">Продумываем последовательность блоков на странице. Каждый элемент отвечает на вопрос клиента, снимает возражение или ведёт к следующему действию.</p></div>
+    <div class="wcard zi d2" tabindex="0"><img src="assets/img/work-3.webp" alt="Подготовка текстов для сайта" loading="lazy"><h3>Тексты</h3><p class="plate">Пишем заголовки, офферы, преимущества, описания услуг и призывы к действию. Не заполняем пространство текстом — объясняем ценность продукта.</p></div>
+    <div class="wcard zi" tabindex="0"><img src="assets/img/work-4.webp" alt="Индивидуальный дизайн сайта" loading="lazy"><h3>Индивидуальный дизайн</h3><p class="plate">Визуальная часть помогает легче воспринимать информацию и усиливает доверие к компании. Продумываем композицию, акценты и детали.</p></div>
+    <div class="wcard zi d1" tabindex="0"><img src="assets/img/work-5.webp" alt="Сборка сайта с CRM и чат-ботами" loading="lazy"><h3>Сборка сайта + CRM и боты</h3><p class="plate">Собираем адаптивный сайт. Подключаем CRM, уведомления в Telegram, email, чат-боты и дополнительные сценарии.</p></div>
+    <div class="wcard zi d2" tabindex="0"><img src="assets/img/work-6.webp" alt="Настройка аналитики и рекламы" loading="lazy"><h3>Аналитика и реклама</h3><p class="plate">Настраиваем цели и основные события. При необходимости запускаем рекламу и продолжаем работу с сайтом на основании данных.</p></div>
   </div>
 </div></section>
 
@@ -1323,7 +1334,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
   <div class="stages fu d2" id="stages">
     <div class="rail" id="rail"><i></i><b></b></div>
     <div class="stage"><span class="fs-n">01 / РЕКЛАМА</span><div class="fs-ico"><svg viewBox="0 0 512 512"><path d="M432 64 160 160H64a32 32 0 0 0-32 32v96a32 32 0 0 0 32 32h20l36 116a24 24 0 0 0 23 17h42a24 24 0 0 0 23-31l-30-102h22l272 96zM464 192v96a48 48 0 0 0 0-96z"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">показов рекламы</span><span class="fs-bar" style="--w:100%"><i></i></span><em class="fs-conv"></em></div>
-    <div class="stage"><span class="fs-n">02 / ЛЕНДИНГ</span><div class="fs-ico"><svg viewBox="0 0 512 512"><path d="M0 64v384h512V64zm40 40h24v24H40zm48 0h24v24H88zm48 0h24v24h-24zM40 168h432v240H40zm40 40v64h200v-64zm0 104v24h200v-24zm0 48v24h140v-24zm240-152v152h112V208z" fill-rule="evenodd"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">переходов на лендинг</span><span class="fs-bar" style="--w:72%"><i></i></span><em class="fs-conv"></em></div>
+    <div class="stage"><span class="fs-n">02 / САЙТ</span><div class="fs-ico"><svg viewBox="0 0 512 512"><path d="M0 64v384h512V64zm40 40h24v24H40zm48 0h24v24H88zm48 0h24v24h-24zM40 168h432v240H40zm40 40v64h200v-64zm0 104v24h200v-24zm0 48v24h140v-24zm240-152v152h112V208z" fill-rule="evenodd"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">переходов на сайт</span><span class="fs-bar" style="--w:72%"><i></i></span><em class="fs-conv"></em></div>
     <div class="stage"><span class="fs-n">03 / ЗАЯВКА</span><div class="fs-ico"><svg viewBox="0 0 512 512"><path d="M96 0h240l112 112v400H64V0zm224 32v96h96zM128 208v32h256v-32zm0 80v32h256v-32zm0 80v32h160v-32z" fill-rule="evenodd"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">заявок</span><span class="fs-bar" style="--w:20%"><i></i></span><em class="fs-conv"></em></div>
     <div class="stage"><span class="fs-n">04 / CRM</span><div class="fs-ico"><svg viewBox="0 0 512 512"><circle cx="192" cy="144" r="112"/><path d="M0 480c0-106 86-192 192-192s192 86 192 192zM400 176h40v56h56v40h-56v56h-40v-56h-56v-40h56z"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">сделок в CRM</span><span class="fs-bar" style="--w:11%"><i></i></span><em class="fs-conv"></em></div>
     <div class="stage"><span class="fs-n">05 / ПРОДАЖА</span><div class="fs-ico"><svg viewBox="0 0 512 512"><path d="M32 448h448v40H32zM64 320h72v104H64zm112-80h72v184h-72zm112 48h72v136h-72zm112-160h72v296h-72zM330 48h110v110l-38-38-102 102-56-56-102 102-28-28 130-130 56 56 74-74z"/></svg></div><b class="fs-num">0</b><span class="fs-lbl">продаж</span><span class="fs-bar" style="--w:7%"><i></i></span><em class="fs-conv"></em></div>
@@ -1336,7 +1347,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <section class="sec" id="projects"><div class="wrap">
   <div class="head">
     <div><p class="eyebrow fu">Портфолио</p><h2 class="rv">Проекты, которые работают <em>на результат</em></h2></div>
-    <p class="descr fu d2">Каждый лендинг и сайт проектируем под конкретное действие пользователя — заявку, запись, покупку или обращение — и продвигаем его. Ниже — что это дало бизнесу клиентов.</p>
+    <p class="descr fu d2">Каждый сайт проектируем под конкретное действие пользователя — заявку, запись, покупку или обращение — и продвигаем его. Ниже — что это дало бизнесу клиентов.</p>
   </div>
   <a class="case" href="#">
     <p class="cat fu">/ Сеть ресторанов</p>
@@ -1354,31 +1365,35 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <!-- НОВОЕ: манифест -->
 <section class="sec" id="why"><div class="wrap">
   <div class="head">
-    <div><p class="eyebrow eb-wide fu">Почему лендинг</p><h2 class="rv">Одна страница, одна цель — <em>больше заявок с&nbsp;той же рекламы</em></h2></div>
-    <p class="descr fu d2">Лендинг не&nbsp;распыляет внимание: человек приходит с&nbsp;рекламы, видит ровно то&nbsp;предложение, на&nbsp;которое кликнул, и&nbsp;без лишних переходов оставляет заявку. Поэтому с&nbsp;тем&nbsp;же рекламным бюджетом лендинг приводит больше клиентов, чем многостраничный сайт.</p>
+    <div><p class="eyebrow eb-wide fu">Почему сайт от нас</p><h2 class="rv">Заявки не теряются — <em>каждая доходит до менеджера</em></h2></div>
+    <p class="descr fu d2">Обычно сайт делают отдельно, а&nbsp;заявки приходят на&nbsp;почту: часть теряется, на&nbsp;часть отвечают на&nbsp;следующий день, а&nbsp;кому-то забывают перезвонить. Мы&nbsp;собираем сайт сразу вместе с&nbsp;CRM, уведомлениями и&nbsp;чат-ботом, поэтому реклама окупается заявками, а&nbsp;не&nbsp;сливается.</p>
   </div>
   <div class="why-grid">
     <div class="share fu">
+      <div class="ld-tabs" id="ldTabs" role="tablist">
+        <button role="tab" class="on" aria-selected="true" data-m="0">Обычный сайт</button>
+        <button role="tab" aria-selected="false" data-m="1">Сайт от&nbsp;нас</button>
+      </div>
       <div class="share-top">
-        <b><span data-count="10">10</span><small>%</small></b>
-        <p><strong>средняя конверсия лендинга</strong> в&nbsp;заявку на&nbsp;целевом трафике&nbsp;— по&nbsp;разным оценкам от&nbsp;5&nbsp;до&nbsp;15%.</p>
+        <b><span id="ldNum">72</span><small>/100</small></b>
+        <p id="ldTxt"><strong>заявок обработают вовремя</strong>&nbsp;— остальные клиенты уйдут к&nbsp;конкурентам.</p>
       </div>
-      <div class="cms" id="cms" role="img" aria-label="Конверсия в заявку по типу страницы: квиз-лендинг 8–20%, лендинг под рекламу 5–15%, страница услуги на многостраничном сайте 2–4%, главная корпоративного сайта 1–3%, сайт-визитка 0,5–1,5%">
-        <div class="cms-row wp" data-v="40"><span>Лендинг под рекламу</span><div class="cms-bar"></div><b>5–15%</b></div>
-        <div class="cms-row" data-v="45"><span>Квиз-лендинг</span><div class="cms-bar"></div><b>8–20%</b></div>
-        <div class="cms-row" data-v="12"><span>Страница услуги на&nbsp;многостраничном сайте</span><div class="cms-bar"></div><b>2–4%</b></div>
-        <div class="cms-row" data-v="8"><span>Главная корпоративного сайта</span><div class="cms-bar"></div><b>1–3%</b></div>
-        <div class="cms-row" data-v="4"><span>Сайт-визитка</span><div class="cms-bar"></div><b>0,5–1,5%</b></div>
-      </div>
-      <p class="share-src">Конверсия посетителя в&nbsp;заявку, оценочные диапазоны по&nbsp;рынку. Длина полосы&nbsp;— середина диапазона, один квадратик&nbsp;— 0,25%.</p>
+      <div class="leads" id="leads" role="img" aria-label="Пример на 100 заявок: на обычном сайте 28 теряются, на сайте с CRM и уведомлениями все 100 доходят до менеджера"></div>
+      <ul class="ld-legend" id="ldLegend">
+        <li class="l1"><b>12</b> потерялись в&nbsp;почте и&nbsp;мессенджерах</li>
+        <li class="l2"><b>10</b> ответили слишком поздно</li>
+        <li class="l3"><b>6</b> забыли перезвонить</li>
+        <li class="ok"><b>100</b> сразу в&nbsp;CRM, менеджер узнаёт о&nbsp;заявке за&nbsp;секунды, а&nbsp;напоминания и&nbsp;бот не&nbsp;дают забыть о&nbsp;клиенте</li>
+      </ul>
+      <p class="share-src">Пример на&nbsp;100 заявок: типичные потери, когда сайт не&nbsp;связан с&nbsp;CRM. Один квадратик&nbsp;— одна заявка.</p>
     </div>
     <div class="feats">
-      <div class="feat fu"><div class="fn">01<span class="badge">1 оффер · 1 действие</span></div><h3>Ничего не&nbsp;отвлекает</h3><p>Нет меню, десятков разделов и&nbsp;ссылок «в&nbsp;никуда». Вся страница ведёт к&nbsp;одному действию&nbsp;— заявке, звонку или покупке, поэтому посетитель не&nbsp;теряется и&nbsp;не&nbsp;уходит.</p></div>
-      <div class="feat fu d1"><div class="fn">02</div><h3>Создан для&nbsp;рекламы</h3><p>Объявление и&nbsp;страница говорят об&nbsp;одном и&nbsp;том&nbsp;же. Под каждый сегмент аудитории можно сделать свою посадочную&nbsp;— это повышает конверсию и&nbsp;снижает стоимость заявки.</p></div>
-      <div class="feat fu"><div class="fn">03</div><h3>Быстрый запуск</h3><p>Одна страница проектируется, пишется и&nbsp;собирается в&nbsp;разы быстрее многостраничного сайта. Принимать заявки можно начать уже через пару недель, а&nbsp;не&nbsp;через несколько месяцев.</p></div>
-      <div class="feat fu d1"><div class="fn">04<span class="badge">A/B-тесты</span></div><h3>Легко проверять гипотезы</h3><p>Меняем заголовок, оффер, цену или порядок блоков и&nbsp;сравниваем варианты по&nbsp;реальным заявкам. Решения принимаются по&nbsp;цифрам, а&nbsp;не&nbsp;по&nbsp;вкусу.</p></div>
-      <div class="feat fu"><div class="fn">05</div><h3>Прозрачная аналитика</h3><p>Весь путь клиента&nbsp;— на&nbsp;одной странице. Видно, до&nbsp;какого блока дочитывают, где уходят и&nbsp;какая кнопка срабатывает, поэтому точно понятно, что улучшать.</p></div>
-      <div class="feat fu d1"><div class="fn">06</div><h3>Быстро окупается</h3><p>Разработка стоит дешевле полноценного сайта, а&nbsp;высокая конверсия возвращает вложения с&nbsp;первых рекламных кампаний. Когда бизнес вырастет, лендинг станет основой для&nbsp;большого сайта.</p></div>
+      <div class="feat fu"><div class="fn">01<span class="badge">1 услуга · 1 страница</span></div><h3>Страница под каждую услугу</h3><p>Каждое направление получает свою страницу с&nbsp;оффером, ценами и&nbsp;формой заявки. Человек сразу видит то, что искал, и&nbsp;не&nbsp;уходит к&nbsp;конкурентам.</p></div>
+      <div class="feat fu d1"><div class="fn">02</div><h3>Готов к&nbsp;рекламе и&nbsp;SEO</h3><p>Структура, адреса страниц и&nbsp;метатеги продуманы с&nbsp;первого дня. Сайт можно продвигать и&nbsp;в&nbsp;рекламе, и&nbsp;в&nbsp;поиске без переделок.</p></div>
+      <div class="feat fu"><div class="fn">03</div><h3>Поддержка после запуска</h3><p>Не&nbsp;бросаем проект после сдачи: вносим правки, добавляем страницы и&nbsp;следим за&nbsp;скоростью и&nbsp;безопасностью. Сайт и&nbsp;все доступы к&nbsp;нему остаются у&nbsp;вас.</p></div>
+      <div class="feat fu d1"><div class="fn">04<span class="badge">A/B-тесты</span></div><h3>Легко проверять гипотезы</h3><p>Меняем заголовки, офферы, цены или порядок блоков на&nbsp;страницах и&nbsp;сравниваем варианты по&nbsp;реальным заявкам. Решения принимаются по&nbsp;цифрам, а&nbsp;не&nbsp;по&nbsp;вкусу.</p></div>
+      <div class="feat fu"><div class="fn">05</div><h3>Прозрачная аналитика</h3><p>Видно весь путь клиента по&nbsp;сайту: откуда пришёл, какие страницы смотрел, где ушёл и&nbsp;где оставил заявку. Поэтому точно понятно, что улучшать.</p></div>
+      <div class="feat fu d1"><div class="fn">06</div><h3>Растёт вместе с&nbsp;бизнесом</h3><p>Новые услуги, каталог, оплата, личный кабинет или интеграция с&nbsp;1С добавляются по&nbsp;мере роста&nbsp;— без переделки сайта с&nbsp;нуля.</p></div>
     </div>
   </div>
 </div></section>
@@ -1387,12 +1402,12 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <section class="sec"><div class="wrap">
   <div class="head">
     <div><p class="eyebrow fu">Как мы работаем</p><h2 class="rv">От задачи бизнеса <em>до запуска и цифр</em></h2></div>
-    <p class="descr fu d2">Работаем как партнёр по продвижению, а не как отдельный подрядчик по лендингу. Лендинг, реклама, CRM, чат-боты и аналитика — одна система, которую оцениваем по заявкам, стоимости обращения и конверсии.</p>
+    <p class="descr fu d2">Работаем как партнёр по продвижению, а не как отдельный подрядчик по сайту. Сайт, реклама, CRM, чат-боты и аналитика — одна система, которую оцениваем по заявкам, стоимости обращения и конверсии.</p>
   </div>
   <div class="steps">
-    <div class="st fu"><h3>Разбираемся в бизнесе</h3><p>Погружаемся в продукт, аудиторию и продажи. Определяем задачу лендинга, ключевые сценарии и метрики результата.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 1 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" fill="#D8D8D8"></rect><rect x="3" y="10" width="6" height="6" fill="#D8D8D8"></rect><rect x="10" y="10" width="6" height="6" fill="#D8D8D8"></rect></svg></div>
+    <div class="st fu"><h3>Разбираемся в бизнесе</h3><p>Погружаемся в продукт, аудиторию и продажи. Определяем задачу сайта, ключевые сценарии и метрики результата.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 1 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" fill="#D8D8D8"></rect><rect x="3" y="10" width="6" height="6" fill="#D8D8D8"></rect><rect x="10" y="10" width="6" height="6" fill="#D8D8D8"></rect></svg></div>
     <div class="st fu"><h3>Проектируем структуру и оффер</h3><p>Выстраиваем путь пользователя до целевого действия. Формируем оффер, структуру и тексты под задачи бизнеса и будущий трафик.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 2 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" class="r"></rect><rect x="3" y="10" width="6" height="6" fill="#D8D8D8"></rect><rect x="10" y="10" width="6" height="6" fill="#D8D8D8"></rect></svg></div>
-    <div class="st fu"><h3>Собираем лендинг и систему</h3><p>Создаём дизайн, собираем лендинг и подключаем формы, CRM, уведомления, чат-боты и интеграции.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 3 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" class="r"></rect><rect x="3" y="10" width="6" height="6" class="r"></rect><rect x="10" y="10" width="6" height="6" fill="#D8D8D8"></rect></svg></div>
+    <div class="st fu"><h3>Собираем сайт и систему</h3><p>Создаём дизайн, собираем сайт и подключаем формы, CRM, уведомления, чат-боты и интеграции.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 3 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" class="r"></rect><rect x="3" y="10" width="6" height="6" class="r"></rect><rect x="10" y="10" width="6" height="6" fill="#D8D8D8"></rect></svg></div>
     <div class="st fu"><h3>Запускаем и держим результат под контролем</h3><p>Настраиваем аналитику и продвижение. Смотрим на заявки, их стоимость и точки потерь — и меняем то, что не даёт результат.</p><svg class="sq" viewBox="0 0 19 19" fill="none" role="img" aria-label="Этап 4 из 4"><rect x="3" y="3" width="6" height="6" class="r"></rect><rect x="10" y="3" width="6" height="6" class="r"></rect><rect x="3" y="10" width="6" height="6" class="r"></rect><rect x="10" y="10" width="6" height="6" class="r"></rect></svg></div>
   </div>
 </div></section>
@@ -1406,13 +1421,13 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
   <div class="price-grid">
     <div class="price-card fu"><p class="price-card__index">01 &nbsp;/&nbsp; Лендинг</p><h3 class="price-card__name">Лендинг</h3><p class="price-card__tagline">Один продукт — одно предложение. Готов принимать трафик и превращать его в заявки.</p>
       <ul class="price-features"><li><span class="price-check" data-ck></span>УТП, структура и оффер</li><li><span class="price-check" data-ck></span>Продающие тексты</li><li><span class="price-check" data-ck></span>Дизайн и адаптивная вёрстка</li><li><span class="price-check" data-ck></span>CRM, формы, цели под рекламу</li></ul>
-      <a class="price-btn" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Оставить заявку <span class="price-btn__arrow" data-ar></span></a></div>
+      <a class="price-btn" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Оставить заявку <span class="price-btn__arrow" data-ar></span></a></div>
     <div class="price-card fu d1"><p class="price-card__index">02 &nbsp;/&nbsp; Сайт услуг</p><h3 class="price-card__name">Сайт услуг</h3><p class="price-card__tagline">Несколько направлений, кейсы, чёткая навигация до заявки.</p>
       <ul class="price-features"><li><span class="price-check" data-ck></span>Всё из пакета «Лендинг»</li><li><span class="price-check" data-ck></span>Отдельные страницы под услуги</li><li><span class="price-check" data-ck></span>Кейсы и блок доверия</li><li><span class="price-check" data-ck></span>Базовая SEO-структура</li></ul>
-      <a class="price-btn" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Оставить заявку <span class="price-btn__arrow" data-ar></span></a></div>
-    <div class="price-card price-card--partner fu d2"><span class="price-partner-badge">Партнёрство</span><p class="price-card__index">03 &nbsp;/&nbsp; Система продаж</p><h3 class="price-card__name">Система продаж</h3><p class="price-card__tagline">Лендинг, реклама, CRM, чат-боты и аналитика работают как единая система продаж.</p>
-      <ul class="price-features"><li><span class="price-check" data-ckd></span>Всё из пакета «Лендинг»</li><li><span class="price-check" data-ckd></span>Запуск рекламы и настройка целей</li><li><span class="price-check" data-ckd></span>CRM, боты и прозрачная воронка продаж</li><li><span class="price-check" data-ckd></span>Контроль заявок, стоимости лида и конверсии</li></ul>
-      <a class="price-btn price-btn--outline" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Обсудить партнёрство <span class="price-btn__arrow" data-ar></span></a></div>
+      <a class="price-btn" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Оставить заявку <span class="price-btn__arrow" data-ar></span></a></div>
+    <div class="price-card price-card--partner fu d2"><span class="price-partner-badge">Партнёрство</span><p class="price-card__index">03 &nbsp;/&nbsp; Система продаж</p><h3 class="price-card__name">Система продаж</h3><p class="price-card__tagline">Сайт, реклама, CRM, чат-боты и аналитика работают как единая система продаж.</p>
+      <ul class="price-features"><li><span class="price-check" data-ckd></span>Всё из пакета «Сайт услуг»</li><li><span class="price-check" data-ckd></span>Запуск рекламы и настройка целей</li><li><span class="price-check" data-ckd></span>CRM, боты и прозрачная воронка продаж</li><li><span class="price-check" data-ckd></span>Контроль заявок, стоимости лида и конверсии</li></ul>
+      <a class="price-btn price-btn--outline" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Обсудить партнёрство <span class="price-btn__arrow" data-ar></span></a></div>
   </div>
 </div></section>
 
@@ -1431,14 +1446,14 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <section class="sec" id="contact"><div class="wrap">
   <div class="head">
     <div><p class="eyebrow fu">Контакты</p><h2 class="rv">Обсудим <em>ваш проект</em></h2></div>
-    <p class="descr fu d2">Расскажите, какой лендинг нужен и какую задачу он&nbsp;должен решать.<br>Посмотрим на проект целиком: от структуры до рекламы, CRM и аналитики.</p>
+    <p class="descr fu d2">Расскажите, какой сайт нужен и какую задачу он&nbsp;должен решать.<br>Посмотрим на проект целиком: от структуры до рекламы, CRM и аналитики.</p>
   </div>
   <div class="channels">
     <a class="ch fu" href="tel:+79652392724"><i class="mi i-tel"></i><b>Позвонить</b><small>+79652392724</small></a>
     <a class="ch fu d1" href="mailto:lukyanm@gmail.com"><i class="mi i-mail"></i><b>Написать на эл. почту</b><small>lukyanm@gmail.com</small></a>
     <a class="ch fu d2" href="https://t.me/advgid"><i class="mi i-tg"></i><b>Написать в Телеграм</b><small>@advgid</small></a>
     <!-- Пока скрыто, как в Tilda (может пригодиться вместе с формой ниже):
-    <a class="ch out fu d3" href="#popup:marquiz_6ad8c4495385bf000f80d24b"><i class="mi i-web"></i><b>Оставить заявку на сайте</b></a>
+    <a class="ch out fu d3" href="#popup:marquiz_6ad9e73dc6d157000f5670ec"><i class="mi i-web"></i><b>Оставить заявку на сайте</b></a>
     -->
   </div>
   <!-- Форма заявки пока скрыта, как в Tilda (может пригодиться):
@@ -1469,7 +1484,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 
 <footer><div class="wrap">
   <div class="foot">
-    <div><a class="logo" href="/">Разработка лендинга</a><a class="btn btn-red" href="#popup:marquiz_6ad8c4495385bf000f80d24b">Обсудить проект <i class="mi i-arrow"></i></a>
+    <div><a class="logo" href="/">Создание сайтов</a><a class="btn btn-red" href="#popup:marquiz_6ad9e73dc6d157000f5670ec">Обсудить проект <i class="mi i-arrow"></i></a>
       <p class="foot-req">ИП Лукьянов Михаил Алексеевич<br>ИНН: 772080540278<br>ОГРНИП: 319774600279702<br>© Все права защищены, ИП Лукьянов М.А.</p></div>
     <div><p class="foot-t">Страницы</p><ul><li><a href="/#services">Услуги</a></li><li><a href="/#projects">Кейсы</a></li><li><a href="/#price">Цены</a></li><li><a href="/#contact">Контакты</a></li></ul></div>
     <div class="docs"><p class="foot-t">Документы</p><ul><li><a href="/policy">Политика конфиденциальности</a></li><li><a href="/soglasie">Согласие на обработку ПД</a></li></ul></div>
@@ -1666,13 +1681,13 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
   tick(); setInterval(tick, 1000);
 })();
 
-/* НОВОЕ: отчёт PageSpeed — шаблон против нашего лендинга */
+/* НОВОЕ: отчёт PageSpeed — шаблон против нашего сайта */
 (() => {
   const data = {
-    tpl:  { url: "обычный лендинг", g: [31, 72, 67, 78], m: [["Первый контент (FCP)", "4,1 с"], ["Основной контент (LCP)", "7,8 с"], ["Блокировка (TBT)", "1 340 мс"], ["Сдвиг макета (CLS)", "0,31"]],
+    tpl:  { url: "обычный сайт", g: [31, 72, 67, 78], m: [["Первый контент (FCP)", "4,1 с"], ["Основной контент (LCP)", "7,8 с"], ["Блокировка (TBT)", "1 340 мс"], ["Сдвиг макета (CLS)", "0,31"]],
             verdict: "⚠ Медленно: больше половины посетителей с телефона уходят, не дождавшись загрузки" },
-    ours: { url: "лендинг от нас", g: [98, 96, 100, 100], m: [["Первый контент (FCP)", "0,7 с"], ["Основной контент (LCP)", "0,9 с"], ["Блокировка (TBT)", "20 мс"], ["Сдвиг макета (CLS)", "0"]],
-            verdict: "✓ Быстро: лендинг открывается мгновенно и не теряет клиентов с рекламы" },
+    ours: { url: "сайт от нас", g: [98, 96, 100, 100], m: [["Первый контент (FCP)", "0,7 с"], ["Основной контент (LCP)", "0,9 с"], ["Блокировка (TBT)", "20 мс"], ["Сдвиг макета (CLS)", "0"]],
+            verdict: "✓ Быстро: сайт открывается мгновенно и не теряет клиентов с рекламы" },
   };
   const names = ["Производительность", "Доступность", "Рекомендации", "SEO"];
   const col = (v) => (v >= 90 ? "#0c9a4a" : v >= 50 ? "#e67700" : "#cf040e");
@@ -1710,7 +1725,7 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
     sw.querySelectorAll("button").forEach((b) => { const on = b.dataset.mode === mode; b.classList.toggle("on", on); b.setAttribute("aria-selected", on); });
   };
   document.querySelectorAll("#switch button").forEach((b) => b.addEventListener("click", () => { auto = false; show(b.dataset.mode); }));
-  // при появлении: сначала шаблон, через 2,5 с — автоматически наш лендинг
+  // при появлении: сначала шаблон, через 2,5 с — автоматически наш сайт
   new IntersectionObserver(([e], o) => {
     if (!e.isIntersecting) return; o.disconnect();
     show("tpl");
@@ -1739,7 +1754,7 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
     const conv = [
       "охват за месяц",
       `CTR ${pct(vals[1], vals[0])}%`,
-      `конверсия лендинга ${pct(vals[2], vals[1])}%`,
+      `конверсия сайта ${pct(vals[2], vals[1])}%`,
       `${pct(vals[3], vals[2])}% заявок`,
       `${pct(vals[4], vals[3])}% сделок`,
     ];
@@ -1790,15 +1805,37 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
   new IntersectionObserver(([e]) => { if (e.isIntersecting && !playing) play(); }, { threshold: .15 }).observe(box);
 })();
 
-/* «Почему лендинг»: столбцы из квадратиков, каждый квадратик — 0,25% */
+/* «Почему сайт от нас»: 100 заявок, на обычном сайте часть теряется, у нас все доходят до менеджера */
 (() => {
-  const cms = document.getElementById("cms");
-  cms.querySelectorAll(".cms-row").forEach((row, r) => {
-    const n = +row.dataset.v;
-    row.querySelector(".cms-bar").innerHTML = Array.from({ length: n }, (_, k) => `<i style="transition-delay:${(r * 60 + k * 22) / 1000}s"></i>`).join("");
-  });
-  if (reduce) { cms.classList.add("on"); return; }
-  new IntersectionObserver(([e], o) => { if (e.isIntersecting) { cms.classList.add("on"); o.disconnect(); } }, { threshold: .4 }).observe(cms);
+  const box = document.getElementById("leads"), num = document.getElementById("ldNum"), txt = document.getElementById("ldTxt"), legend = document.getElementById("ldLegend");
+  const btns = [...document.querySelectorAll("#ldTabs button")];
+  const lost = { l1: [3, 17, 24, 38, 45, 51, 62, 69, 76, 83, 90, 97], l2: [8, 14, 30, 41, 56, 65, 72, 87, 93, 99], l3: [21, 34, 48, 59, 80, 86] };
+  const cls = Array(100).fill("");
+  Object.entries(lost).forEach(([c, ids]) => ids.forEach((i) => { cls[i] = c; }));
+  box.innerHTML = cls.map((c, i) => `<i${c ? ` class="${c}"` : ""} style="transition-delay:${((i % 20) * 25 + Math.floor(i / 20) * 60) / 1000}s,0s,0s"></i>`).join("");
+  const modes = [
+    { n: 72, t: "<strong>заявок обработают вовремя</strong>&nbsp;— остальные клиенты уйдут к&nbsp;конкурентам." },
+    { n: 100, t: "<strong>заявок дойдут до&nbsp;менеджера</strong>&nbsp;— каждая попадает в&nbsp;CRM вместе с&nbsp;источником рекламы." },
+  ];
+  let cur = 0, timer, manual = false;
+  const count = (to) => {
+    const from = +num.textContent, t0 = performance.now();
+    const step = (now) => { const p = Math.min((now - t0) / 600, 1); num.textContent = Math.round(from + (to - from) * p); if (p < 1) requestAnimationFrame(step); };
+    reduce ? (num.textContent = to) : requestAnimationFrame(step);
+  };
+  const set = (m) => {
+    cur = m;
+    btns.forEach((b, i) => { b.classList.toggle("on", i === m); b.setAttribute("aria-selected", i === m); });
+    box.dataset.m = m;
+    legend.classList.toggle("m1", m === 1);
+    txt.innerHTML = modes[m].t;
+    count(modes[m].n);
+  };
+  set(0);
+  btns.forEach((b, i) => b.addEventListener("click", () => { manual = true; clearTimeout(timer); set(i); }));
+  const start = () => { box.classList.add("on"); if (!manual) timer = setTimeout(() => { if (!manual) set(1); }, 3500); };
+  if (reduce) { start(); return; }
+  new IntersectionObserver(([e], o) => { if (e.isIntersecting) { start(); o.disconnect(); } }, { threshold: .4 }).observe(box);
 })();
 
 /* Отзывы — слайдер */
@@ -1828,28 +1865,44 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
   // Вопросы и ответы — из документа заказчика (Google Docs), текст без изменений
   const faq = [
       [
-          "Создание/разработка лендинга",
-          "<p>Лендинг — это не просто цифровая визитка, а нормальный инструмент продаж. Его задача простая и жесткая: провести человека от первого знакомства с продуктом к конкретному действию, к покупке, заявке или звонку. На обычном сайте внимание легко расползается в разные стороны, а лендинг работает как такой туннель: мы выкидываем все лишнее и оставляем человека один на один с одним предложением.</p>"
+          "Создание/разработка сайтов",
+          "<p>Любой успешный проект стартует с аналитики. И создание веб-ресурса не является исключением. На начальном этапе разработки сайта специалисту необходимо изучить цели вашего бизнеса. Разработчик внимательно исследует необходимый круг потребителей. А уже после выявления целевой аудитории формирует техническое задание.</p>"
       ],
       [
-          "С чего начинается работа над лендингом?",
-          "<p>Многие почему-то думают, что создание сайта сводится к выбору красивых картинок. На практике все стартует с фундамента, с нормального, глубокого анализа. Мы смотрим, кто ваш клиент, что его тревожит и почему он должен выбрать именно вас.</p><p>В нашем подходе дизайн вообще не про «украсить». Он про психологию продаж. Каждый блок, оттенок кнопки, размер шрифта тут выбирается не просто так. Мы собираем структуру так, чтобы человек сам, почти без усилий, понимал, что ему делать дальше, и спокойно принимал решение в вашу пользу.</p>"
+          "Какие технологии используются для создания веб-ресурсов?",
+          "<p>Для создания веб-ресурса специалисты используют целый стек технологий. Набор необходимых инструментов зависит от поставленных задач. Например, для разработки веб-сайтов с высокой загруженностью особое внимание уделяется архитектуре площадки. Если же проект предполагает работу с большим объемом информации, то используется разработка сайта с сетевым хранением данных.</p>"
       ],
       [
-          "Что входит в услугу «разработка лендинга под ключ»?",
-          "<p>Когда вы заказываете разработку лендинга под ключ, вы получаете готовый продукт, который не нужно доделывать. В этот процесс обычно включены:</p><ol><li>Маркетинговый анализ и написание продающих текстов.</li><li>Прототипирование структуры.</li><li>Уникальный дизайн.</li><li>Верстка и адаптация под мобильные устройства.</li><li>Настройка форм захвата и интеграция с CRM.</li></ol><p>Это комплексный подход, который экономит ваше время и гарантирует, что сайт будет работать как часы.</p>"
+          "В чем особенности создания динамических проектов?",
+          "<p>Современные пользователи ждут интерактивности. Именно поэтому разработке динамических сайтов уделяется особое внимание. Такой сайт не отдает HTML-файл в неизменном виде. Он собирает страницу в ответ на запрос пользователя в режиме реального времени.</p>"
       ],
       [
-          "От чего зависит разработка лендинга: цена и факторы влияния?",
-          "<p>Вопрос, который волнует каждого заказчика: какова цена разработки лендинга? Стоимость не берется «с потолка». Она зависит от сложности функционала, объема контента, необходимости сложной анимации или интеграции с внешними сервисами. Если вам предлагают сделать сайт за копейки, скорее всего, это будет шаблонное решение, которое не принесет конверсий. Качественная разработка лендинга, стоимость которой оправдана результатом, всегда включает этап глубокой проработки смыслов.</p>"
+          "Что значит «сайт под ключ» и почему это выгодно?",
+          "<p>Многие клиенты ищут в интернете услугу разработки сайта под ключ. Это очень удобно. Ведь по итогу пользователь получает готовый продукт не вникая в технические детали. В пакет данной услуги обычно входит:</p><ul><li>разработка дизайна сайта, отражающего ваш бренд;</li><li>верстка и программирование функционала;</li><li>наполнение контентом;</li><li>тестирование и запуск.</li></ul><p>Качественная разработка веб сайта обязательно включает в себя привлекательный дизайн и техническую оптимизацию. Последнему уделяется особое внимание. Ведь настройка внутренней составляющей веб-площадки обеспечивает стабильную работу сервиса и исключает появление ошибок. Часто можно заметить, что сайт находится в статусе «под разработкой». Это значит, что специалисты уже настраивают серверную часть.</p>"
       ],
       [
-          "Сколько стоит разработка лендинга на самом деле?",
-          "<p>Если вы задаетесь вопросом, сколько стоит разработка лендинга, тут важно сразу понять одну вещь: это вложение, а не просто трата денег. Хороший лендинг потом сам себя окупает за счет высокой конверсии, и это чувствуется довольно быстро. Мы обычно советуем смотреть не на самый маленький бюджет, а на то, какие задачи сайт должен закрывать. У нас ценообразование прозрачное, так что каждый рубль привязан к конкретной задаче.</p>"
+          "Как выбрать исполнителя для своего проекта?",
+          "<p>Выбор партнера — это поиск баланса между ценой и качеством. Важно смотреть на проекты разработки сайтов, которые компания уже реализовала. Желательно ознакомиться с релевантными кейсами. Кроме того, оцените компетенцию команды. Помните, что качественная разработка сайта – это ключ к успеху вашего бизнеса. А индивидуальное исполнение окупится гораздо быстрее, чем дешевый шаблонный вариант.</p>"
       ],
       [
-          "Почему стоит выбрать наши услуги по разработке лендингов?",
-          "<p>Если вам нужны качественные разработка лендинга услуги, важно выбрать команду, которая понимает не только в коде, но и в психологии продаж.</p><p>Преимущества сотрудничества с нами:</p><ol><li><b>Фокус на конверсии.</b> Мы не просто рисуем сайты, мы создаем инструменты для заработка. Наши лендинги продают, потому что мы знаем, как убедить вашего клиента.</li><li><b>Индивидуальный подход.</b> Никаких «штампованных» решений. Мы глубоко погружаемся в специфику вашего бизнеса, чтобы выделить вас на фоне конкурентов.</li><li><b>Прозрачность процессов.</b> Вы будете знать, на каком этапе находится проект, и понимать, за что платите. Никаких скрытых платежей.</li><li><b>Техническое совершенство.</b> Наши сайты быстро грузятся, отлично выглядят на смартфонах и корректно отображаются во всех браузерах.</li><li><b>Поддержка после запуска.</b> Мы не бросаем клиентов после сдачи проекта. Мы всегда готовы помочь с доработками, аналитикой и масштабированием вашего лендинга.</li></ol><p>Мы понимаем, что для предпринимателя важно не просто наличие сайта, а его окупаемость. Выбирая нас, вы получаете не просто набор блоков, а продуманную маркетинговую систему.</p><p>Почему мы лучшие в сфере создания лендингов:</p><ul><li>мы не приступаем к макетам, пока не поймем, кто ваш клиент и почему он должен купить именно у вас. Это делает нашу разработку лендинга под ключ максимально эффективной;</li><li>мы знаем, как упаковать ваше предложение так, чтобы оно закрывало возражения еще до того, как клиент успеет их озвучить;</li><li>мы уделяем особое внимание тому, как выглядит и работает сайт на смартфонах. Быстрая загрузка — это не только комфорт пользователя, но и важный фактор ранжирования в поисковых системах;</li><li>мы всегда заранее обсуждаем, из чего складывается разработка лендинга — стоимость проекта фиксируется в договоре, поэтому вы застрахованы от неприятных сюрпризов;</li><li>наши услуги по разработке лендинга включают в себя всё необходимое: от написания текстов, которые «продают», до настройки аналитики, чтобы вы могли видеть эффективность каждого вложенного рубля.</li></ul><p>Если вы все еще размышляете, сколько стоит разработка лендинга и готовы ли вы к этому шагу, просто свяжитесь с нами для консультации. Мы проанализируем вашу нишу, предложим оптимальную структуру и покажем, как качественная разработка сайта лендинга может изменить показатели вашего бизнеса уже в первые месяцы после запуска.</p>"
+          "Почему стоит заказать разработку сайта у нас?",
+          "<p>Все сайты мы разрабатываем индивидуально. Ведь каждый заказ – это часть развития определенного бизнеса. Сотрудничая с нами, вы получаете:</p><ul><li><b>Комплексный подход.</b> Мы берем на себя все важные этапы, начиная от проектирования сайта до его финального тестирования;</li><li><b>Техническая экспертиза.</b> Наша команда специализируется на сложных задачах. Мы сами настраиваем серверы и интегрируем их;</li><li><b>Прозрачность.</b> Вы всегда будете в курсе каждого этапа реализации вашего проекта. Мы регулярно направляем отчеты о проделанной работе;</li><li><b>Фокус на результат.</b> Мы не просто создаем красивый дизайн сайта. Мы разрабатываем инструменты для бизнеса, которые привлекают клиентов;</li><li><b>Поддержка.</b> Мы не бросаем заказчиков и сам проект после запуска. Наши клиенты получают полное техническое сопровождение.</li></ul><p>Готовы вывести свой бизнес на новый уровень? Закажите разработку сайта у профессионалов прямо сейчас!</p>"
+      ],
+      [
+          "Как обеспечить долгосрочную эффективность веб-ресурса?",
+          "<p>Создание веб-площадки состоит из множества этапов. Наша работа не заканчивается сразу после разработки сайта. Мы продолжаем поддерживать и развивать ваш проект. Чтобы ресурс сохранял свою уникальность и актуальность, его необходимо регулярно обновлять. Также важно следить за безопасностью и анализировать действия пользователей.</p>"
+      ],
+      [
+          "Почему важна качественная проработка интерфейса и контента?",
+          "<p>Внешний вид сайта, а именно его дизайн, формирует первое впечатление пользователей. Ведь это не просто визуальная составляющая площадки. Разработка страницы должна учитывать удобство использования. Тогда посетитель интуитивно сможет найти необходимую информацию. Важно, чтобы интерфейс подчеркивал технологичность и надежность вашего бренда. Мы уделяем внимание каждой детали. Так любая разработанная нами страница выглядит профессионально и вызывает доверие.</p>"
+      ],
+      [
+          "Какие риски существуют при самостоятельной разработке или сотрудничестве с дилетантами?",
+          "<p>Часто попытка сэкономить на этапе проектирования приводит к застреванию разработки сайта на месяцы. Нередко клиенты остаются недовольны итоговым результатом. Отсутствие опыта у специалиста приводит к выполнению заказа с ошибками. А это влечет за собой сбои в работе веб-площадки. Выбирая профессионалов, вы исключаете риск потери важных данных.</p>"
+      ],
+      [
+          "Как мы обеспечиваем успех вашего проекта?",
+          "<p>Наш подход основан на принципе: качественная разработка веб сайтов — это инвестиция. Мы не просто пишем код, мы создаем бизнес-инструмент.</p><p>Преимущества сотрудничества с нами:</p><ul><li><b>Индивидуальные решения.</b> Мы не используем шаблонный подход. Каждая разработка интернет сайта адаптируется под специфику вашего бизнеса;</li><li><b>Высокая производительность.</b> Мы уделяем особое внимание оптимизации. Поэтому разработка сайтов с сетевым хранением данных выполняется с учетом максимальной скорости отклика системы;</li><li><b>Масштабируемость.</b> Мы разрабатываем динамические сайты так, чтобы они могли расти вместе с вашим бизнесом;</li><li><b>Гарантия качества.</b> Мы понимаем, что разработанный под ключ сайт должен работать безупречно. Поэтому мы проводим многоуровневое тестирование перед сдачей проекта;</li><li><b>Экспертный консалтинг.</b> Мы помогаем создать оптимальный сайт, который будет соответствовать вашему бюджету и целям. Это позволяет избежать лишних затрат на ненужный функционал.</li></ul><p>Наша команда готова стать вашим надежным партнером для качественной разработки сайта. Мы превращаем сложные технические задачи в понятные и эффективные решения для вашего бизнеса.</p>"
       ]
   ];
   document.getElementById("faq").innerHTML = faq.map(([q, a]) => `<div class="q fu"><button aria-expanded="false">${q}<span class="plus"></span></button><div class="ans"><div><div class="ans-body">${a}</div></div></div></div>`).join("");
